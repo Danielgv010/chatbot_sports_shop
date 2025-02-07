@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatbot sports shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    {% load static %}
+    <script src="{% static 'main/script.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'main/style.css' %}">
+</head>
+<body>
+    <header><a href="/">ChatBot</a></header>
+    <article>
+        {% for item in items %}
+            <div class="item">
+                <div class="top-item">
+                    <p class="name">{{ item.1 }}</p>
+                    <p class="model">{{ item.0 }}</p>
+                </div>           
+                <img src="{% static 'main/img/'|add:item.2|add:'.png' %}" alt="Image">
+                <div class="bot-item">
+                    <div class="price-wrap">
+                        {% if item.4 != 'none' %}
+                            <p class="discount">-{{ item.4 }}</p>
+                        {% endif %}
+                        <p class="price">{{ item.3 }} €</p>
+                    </div>
+                    <button class="buy" id="{{ item.0 }}">Buy</button>
+                </div>
+            </div>
+        {% endfor %}
+    </article>
+    <div class="chat_wrap"></div>
+    <footer></footer>
+</body>
+</html>
