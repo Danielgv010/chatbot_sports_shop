@@ -33,7 +33,14 @@
             </div>
         {% endfor %}
     </article>
-    <div class="chat_wrap"></div>
-    <footer></footer>
+    <div class="chat-wrap" id="chat-button"><img src="{% static 'main/img/chat.png' %}" alt=""></div>
+    <div class="chat-modal" id="chat-modal">
+        <div id="close-chat-modal">x</div>
+        <div id="chat-box">
+            <div class="system-message">Hey! How can I help you today?</div>
+        </div>
+        <input type="text" id="chat-input" placeholder="Type a message...">
+        <div id="chat-send"><img src="{% static 'main/img/send.png' %}" alt=""></div>
+    </div>
 </body>
 </html>

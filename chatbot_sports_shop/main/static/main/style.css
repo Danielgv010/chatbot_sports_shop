@@ -1,0 +1,244 @@
+:root {
+    --a: #EDEDE9;
+    --b: #FFF;
+    --c: #00a8e8;
+    --d: #007ea7;
+    --e: #003459;
+    --f:#00171f;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    background-color: var(--a);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: var(--e);
+    color: var(--a);
+    padding: 1rem;
+    text-align: center;
+}
+
+header a{
+    color: var(--a);
+    text-decoration: none;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.item{
+    background-color: var(--b);
+    box-shadow: #00171f 2px 2px 10px;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-height: 400px;
+}
+
+.top-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.model{
+    background-color: var(--f);
+    color: var(--a);
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+
+.bot-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-wrapper{
+    position:relative;
+    display: flex;
+    gap:0;
+}
+
+.price {
+    min-width: 50px;
+    background-color: var(--e);
+    color: var(--a);
+    padding: 0.2rem;
+    border-radius: 5px;
+    margin:0;
+    text-align: center;
+}
+
+.discount{
+    position:absolute;
+    min-width: 30px;
+    background-color: rgb(172, 50, 50);
+    color: var(--a);
+    padding: 0.1rem;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    margin:0;
+    transform: translate(130%, -60%);
+    text-align: center;
+}
+
+.buy{
+    background-color: var(--d);
+    color: var(--a);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.3rem 1rem;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+}
+
+.buy:hover{
+    background-color: var(--c);
+}
+
+.chat-wrap{
+    position: fixed;
+    min-height: 50px;
+    min-width: 50px;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--c);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.chat-wrap img{
+    height: 30px;
+    width: 30px;
+    filter: invert(1);
+}
+
+.chat-wrap:hover{
+    cursor: pointer;
+    background-color: var(--d);
+}
+
+.chat-modal{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--b);
+    border-radius: 10px;
+    box-shadow: #00171f 2px 2px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 600px;
+    max-height: 600px;
+    display: none;
+}
+
+#close-chat-modal{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: var(--f);
+    color: var(--a);
+    border-radius: 5px;
+    cursor: pointer;
+    padding:0 0.5rem;
+}
+
+#chat-box{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid var(--f);
+    border-radius: 5px;
+    min-height: calc(100% - 100px);
+    max-height: calc(100% - 100px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    overflow-y: scroll;
+}
+
+#chat-input{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    gap: 1rem;
+    min-width: calc(100% - 50px);
+    min-height: 30px;
+}
+
+#chat-send{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    min-height: 30px;
+    min-width: 30px;
+    background-color: var(--d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+#chat-send img{
+    filter: invert(1);
+    max-height: 20px;
+    max-width: 20px;
+}
+
+#chat-send:hover{
+    background-color: var(--e);
+}
+
+.system-message{
+    background-color: var(--e);
+    color: var(--a);
+    padding: 0.2rem;
+    border-radius: 5px;
+    text-align: left;
+    max-width: 60%;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding:5px 15px;
+}
+
+.user-message{
+    background-color: var(--d);
+    color: var(--a);
+    padding: 0.2rem;
+    border-radius: 5px;
+    text-align: left;
+    max-width: 60%;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding:5px 15px;
+}
