@@ -51,7 +51,7 @@ function sendMessage() {
 
 function getResponse(inputValue) {
     let xhr = new XMLHttpRequest();
-    let url = `http://127.0.0.1:8000/send_message?query=${encodeURIComponent(inputValue)}`;
+    let url = `${URLDOMAIN}/send_message?query=${encodeURIComponent(inputValue)}`;
 
     xhr.open("GET", url, true);
     xhr.setRequestHeader("Content-Type", "application/json");
