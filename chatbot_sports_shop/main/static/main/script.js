@@ -1,5 +1,6 @@
 onload = main;
 jsonStatus = 0;
+URLDOMAIN = "http://127.0.0.1:8000"
 
 
 function main() {
@@ -67,7 +68,14 @@ function getResponse(inputValue) {
 
                 let systemMessage = document.createElement('div');
                 systemMessage.className = 'system-message';
-                systemMessage.innerHTML = JSON.stringify(response.result.prediction.topIntent);
+                systemMessage.innerHTML = "Sure! Click here: ";
+
+                let messageLink = document.createElement('a');
+                messageLink.href = URLDOMAIN + "/category/" + JSON.stringify(response.result.prediction.topIntent).replace(/^"|"$/g, '').replace(/Inquiry$/, '').toLowerCase();
+                messageLink.innerHTML = JSON.stringify(response.result.prediction.topIntent).replace(/^"|"$/g, '').replace(/Inquiry$/, '');
+
+                systemMessage.appendChild(messageLink);
+
                 document.getElementById('chat-box').appendChild(systemMessage);
             } else {
                 console.error("Error:", xhr.responseText);

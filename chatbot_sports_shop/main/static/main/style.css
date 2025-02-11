@@ -243,6 +243,10 @@ article {
     word-break: break-all;
 }
 
+.system-message a{
+    color: var(--a);
+}
+
 .user-message{
     background-color: var(--d);
     color: var(--a);
