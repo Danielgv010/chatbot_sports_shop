@@ -38,6 +38,31 @@ function sendMessage(){
     userMessage.className = 'user-message';
     userMessage.innerHTML = CHATINPUT.value;
 
+    getResponse(CHATINPUT.value);
+
     CHATINPUT.value = '';
     document.getElementById('chat-box').appendChild(userMessage);
+}
+
+function getResponse(inputValue){
+    let xhr = new XMLHttpRequest();
+    let url = `http://127.0.0.1:8000/send_message?query=${encodeURIComponent(inputValue)}`;
+
+    xhr.open("GET", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4) {
+            if (xhr.status == 200) {
+                let response = JSON.parse(xhr.responseText);
+                let systemMessage = document.createElement('div');
+                systemMessage.className = 'system-message';
+                systemMessage.innerHTML = JSON.stringify(response);
+                document.getElementById('chat-box').appendChild(systemMessage);
+            } else {
+                console.error("Error:", xhr.responseText);
+            }
+        }
+    };
+    xhr.send();
 }

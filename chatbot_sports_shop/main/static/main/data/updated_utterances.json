@@ -1,0 +1,1802 @@
+[
+    {
+        "intent": "BikeInquiry",
+        "language": "en-us",
+        "text": "What types of bikes do you sell?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "BikeInquiry",
+        "language": "en-us",
+        "text": "Do you have bikes for kids?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "BikeInquiry",
+        "language": "en-us",
+        "text": "Can I get a mountain bike?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 21,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "BikeInquiry",
+        "language": "en-us",
+        "text": "Are electric bikes available?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 13,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "BikeInquiry",
+        "language": "en-us",
+        "text": "What is the best hybrid bike for commuting?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 24,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "BikeInquiry",
+        "language": "en-us",
+        "text": "Do you have road bikes for racing?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 17,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "BikeInquiry",
+        "language": "en-us",
+        "text": "How much do mountain bikes cost?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 21,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "BikeInquiry",
+        "language": "en-us",
+        "text": "What features do hybrid bikes offer?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 24,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "BikeInquiry",
+        "language": "en-us",
+        "text": "Do you sell bike helmets as well?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "BikeInquiry",
+        "language": "en-us",
+        "text": "Are there any discounts for electric bikes?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 37,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "BikeInquiry",
+        "language": "en-us",
+        "text": "Do you offer any discounts on mountain bikes?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 39,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "BikeInquiry",
+        "language": "en-us",
+        "text": "Can you recommend a bike for beginners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 20,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "BikeInquiry",
+        "language": "en-us",
+        "text": "What are the latest mountain bikes available?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 29,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "BikeInquiry",
+        "language": "en-us",
+        "text": "Do you sell bikes for city commuting?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "BikeInquiry",
+        "language": "en-us",
+        "text": "Are there any bikes suitable for long-distance cycling?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "CricketInquiry",
+        "language": "en-us",
+        "text": "Do you sell cricket bats?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CricketInquiry",
+        "language": "en-us",
+        "text": "What types of cricket balls do you have?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CricketInquiry",
+        "language": "en-us",
+        "text": "Do you carry cricket gloves?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 13,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CricketInquiry",
+        "language": "en-us",
+        "text": "Can I buy cricket helmets here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 10,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CricketInquiry",
+        "language": "en-us",
+        "text": "Do you have cricket pads for protection?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CricketInquiry",
+        "language": "en-us",
+        "text": "What are the best cricket bats for beginners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 18,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CricketInquiry",
+        "language": "en-us",
+        "text": "Can you recommend cricket shoes for all-rounders?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 18,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CricketInquiry",
+        "language": "en-us",
+        "text": "Do you sell cricket kits?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CricketInquiry",
+        "language": "en-us",
+        "text": "What is the best cricket ball for spin bowling?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 17,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CricketInquiry",
+        "language": "en-us",
+        "text": "Can I get cricket protective gear here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 10,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CricketInquiry",
+        "language": "en-us",
+        "text": "What are the best cricket gloves for fast bowlers?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 18,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CricketInquiry",
+        "language": "en-us",
+        "text": "Do you have cricket bags for carrying equipment?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CricketInquiry",
+        "language": "en-us",
+        "text": "What brands of cricket bats do you offer?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 15,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CricketInquiry",
+        "language": "en-us",
+        "text": "Do you sell cricket balls for practice?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CricketInquiry",
+        "language": "en-us",
+        "text": "Can I buy cricket shoes for indoor use?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 10,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CyclingInquiry",
+        "language": "en-us",
+        "text": "Do you sell cycling helmets?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CyclingInquiry",
+        "language": "en-us",
+        "text": "What types of cycling shoes do you offer?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CyclingInquiry",
+        "language": "en-us",
+        "text": "Can I get cycling gloves here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 10,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CyclingInquiry",
+        "language": "en-us",
+        "text": "Do you carry cycling shorts?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 13,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CyclingInquiry",
+        "language": "en-us",
+        "text": "What is the best cycling gear for road races?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 17,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CyclingInquiry",
+        "language": "en-us",
+        "text": "Can you recommend a cycling kit for beginners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 20,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CyclingInquiry",
+        "language": "en-us",
+        "text": "Do you have road bikes for commuting?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "CyclingInquiry",
+        "language": "en-us",
+        "text": "What types of cycling bags do you sell?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CyclingInquiry",
+        "language": "en-us",
+        "text": "Do you have cycling jackets for winter?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CyclingInquiry",
+        "language": "en-us",
+        "text": "Can I get a cycling water bottle here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CyclingInquiry",
+        "language": "en-us",
+        "text": "What cycling accessories are available for mountain bikers?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 5,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CyclingInquiry",
+        "language": "en-us",
+        "text": "Do you have cycling tools for maintenance?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CyclingInquiry",
+        "language": "en-us",
+        "text": "Are there any cycling tires for off-road biking?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CyclingInquiry",
+        "language": "en-us",
+        "text": "Can you suggest a good cycling light for night riding?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 23,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CyclingInquiry",
+        "language": "en-us",
+        "text": "What is the best cycling water bottle holder?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 17,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "FootballInquiry",
+        "language": "en-us",
+        "text": "Do you sell football boots?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FootballInquiry",
+        "language": "en-us",
+        "text": "What types of footballs do you offer?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FootballInquiry",
+        "language": "en-us",
+        "text": "Can I buy football shin guards here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 10,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FootballInquiry",
+        "language": "en-us",
+        "text": "Do you carry football socks?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 13,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FootballInquiry",
+        "language": "en-us",
+        "text": "What is the best football kit for kids?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 17,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FootballInquiry",
+        "language": "en-us",
+        "text": "Can you recommend football gloves for goalkeepers?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 18,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FootballInquiry",
+        "language": "en-us",
+        "text": "Do you have football jerseys for adults?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FootballInquiry",
+        "language": "en-us",
+        "text": "What brands of footballs do you sell?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 15,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FootballInquiry",
+        "language": "en-us",
+        "text": "Can I get football cleats here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 10,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FootballInquiry",
+        "language": "en-us",
+        "text": "Do you have football training equipment?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FootballInquiry",
+        "language": "en-us",
+        "text": "What football gear do you recommend for beginners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 5,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FootballInquiry",
+        "language": "en-us",
+        "text": "Do you sell football bags for equipment?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FootballInquiry",
+        "language": "en-us",
+        "text": "Are there any footballs for wet conditions?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FootballInquiry",
+        "language": "en-us",
+        "text": "Can I buy football training cones here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 10,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FootballInquiry",
+        "language": "en-us",
+        "text": "Do you carry football goalposts?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 13,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "GolfInquiry",
+        "language": "en-us",
+        "text": "Do you sell golf clubs?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "GolfInquiry",
+        "language": "en-us",
+        "text": "What types of golf balls do you offer?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "GolfInquiry",
+        "language": "en-us",
+        "text": "Can I buy golf tees here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 10,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "GolfInquiry",
+        "language": "en-us",
+        "text": "Do you carry golf bags?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 13,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "GolfInquiry",
+        "language": "en-us",
+        "text": "What is the best golf driver for beginners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 17,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "GolfInquiry",
+        "language": "en-us",
+        "text": "Can you recommend golf shoes for women?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 18,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "GolfInquiry",
+        "language": "en-us",
+        "text": "Do you have golf gloves for men?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "GolfInquiry",
+        "language": "en-us",
+        "text": "What are the best golf irons for high handicappers?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 18,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "GolfInquiry",
+        "language": "en-us",
+        "text": "Do you sell golf putters here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "GolfInquiry",
+        "language": "en-us",
+        "text": "What golf accessories do you recommend for beginners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 5,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "GolfInquiry",
+        "language": "en-us",
+        "text": "Are there any golf balls for distance?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "GolfInquiry",
+        "language": "en-us",
+        "text": "Do you carry golf rangefinders?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 13,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "GolfInquiry",
+        "language": "en-us",
+        "text": "What is the price of a golf cart?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 23,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "GolfInquiry",
+        "language": "en-us",
+        "text": "Can I get golf balls for rainy weather?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 10,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "GolfInquiry",
+        "language": "en-us",
+        "text": "Do you sell golf hats or visors?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "RunningInquiry",
+        "language": "en-us",
+        "text": "Do you sell running shoes?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "RunningInquiry",
+        "language": "en-us",
+        "text": "What types of running socks do you offer?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "RunningInquiry",
+        "language": "en-us",
+        "text": "Can I buy running watches here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 10,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "RunningInquiry",
+        "language": "en-us",
+        "text": "Do you carry running shorts?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 13,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "RunningInquiry",
+        "language": "en-us",
+        "text": "What is the best running gear for marathons?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 17,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "RunningInquiry",
+        "language": "en-us",
+        "text": "Can you recommend running shoes for flat feet?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 18,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "RunningInquiry",
+        "language": "en-us",
+        "text": "Do you have running belts for hydration?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "RunningInquiry",
+        "language": "en-us",
+        "text": "What are the best running shoes for trail running?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 18,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "RunningInquiry",
+        "language": "en-us",
+        "text": "Can I get running compression socks here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 10,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "RunningInquiry",
+        "language": "en-us",
+        "text": "What running accessories do you recommend for beginners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 5,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "RunningInquiry",
+        "language": "en-us",
+        "text": "Are there any running shoes for overpronation?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "RunningInquiry",
+        "language": "en-us",
+        "text": "Do you carry running hats or visors?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 13,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "RunningInquiry",
+        "language": "en-us",
+        "text": "What is the best running watch for tracking pace?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 17,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "RunningInquiry",
+        "language": "en-us",
+        "text": "Do you sell running jackets for winter?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "RunningInquiry",
+        "language": "en-us",
+        "text": "What running shoes do you have for long-distance runners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 5,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "SkatesInquiry",
+        "language": "en-us",
+        "text": "Do you sell roller skates?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 19,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "SkatesInquiry",
+        "language": "en-us",
+        "text": "What types of skateboards do you offer?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 21,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "SkatesInquiry",
+        "language": "en-us",
+        "text": "Can I buy inline skates here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 17,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "SkatesInquiry",
+        "language": "en-us",
+        "text": "Do you carry skate helmets?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "SkatesInquiry",
+        "language": "en-us",
+        "text": "What is the best protective gear for skating?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 26,
+                "length": 5
+            }
+        ]
+    },
+    {
+        "intent": "SkatesInquiry",
+        "language": "en-us",
+        "text": "Can you recommend skates for beginners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 18,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "SkatesInquiry",
+        "language": "en-us",
+        "text": "Do you have skates for outdoor use?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "SkatesInquiry",
+        "language": "en-us",
+        "text": "What are the best skates for speed?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 18,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "SkatesInquiry",
+        "language": "en-us",
+        "text": "Can I get protective knee pads for skating here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 9
+            }
+        ]
+    },
+    {
+        "intent": "SkatesInquiry",
+        "language": "en-us",
+        "text": "What skating accessories do you recommend for beginners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 28,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "SkatesInquiry",
+        "language": "en-us",
+        "text": "Are there any skates for aggressive skating?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "SkatesInquiry",
+        "language": "en-us",
+        "text": "Do you carry skate pads or gloves?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "SkatesInquiry",
+        "language": "en-us",
+        "text": "What is the best skate tool for adjustments?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 26,
+                "length": 5
+            }
+        ]
+    },
+    {
+        "intent": "SkatesInquiry",
+        "language": "en-us",
+        "text": "Do you sell skate jackets for winter?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "SkatesInquiry",
+        "language": "en-us",
+        "text": "What skates do you have for street skating?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 5,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "SwimmingInquiry",
+        "language": "en-us",
+        "text": "Do you sell swimming goggles?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "SwimmingInquiry",
+        "language": "en-us",
+        "text": "What types of swimwear do you offer?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 21,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "SwimmingInquiry",
+        "language": "en-us",
+        "text": "Can I buy swim caps here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "SwimmingInquiry",
+        "language": "en-us",
+        "text": "Do you carry swim fins?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "SwimmingInquiry",
+        "language": "en-us",
+        "text": "What is the best swimming gear for open water swimming?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 17,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "SwimmingInquiry",
+        "language": "en-us",
+        "text": "Can you recommend swimwear for competitive swimmers?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 28,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "SwimmingInquiry",
+        "language": "en-us",
+        "text": "Do you have swimming training equipment?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "SwimmingInquiry",
+        "language": "en-us",
+        "text": "What are the best swimming goggles for anti-fog?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 18,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "SwimmingInquiry",
+        "language": "en-us",
+        "text": "Can I get swim trunks for kids here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "SwimmingInquiry",
+        "language": "en-us",
+        "text": "What swimming accessories do you recommend for beginners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 5,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "SwimmingInquiry",
+        "language": "en-us",
+        "text": "Are there any swimming snorkels for beginners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "SwimmingInquiry",
+        "language": "en-us",
+        "text": "Do you carry swim paddles or hand buoys?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "SwimmingInquiry",
+        "language": "en-us",
+        "text": "What is the best swim cap for long hair?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 26,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "SwimmingInquiry",
+        "language": "en-us",
+        "text": "Do you sell swimwear for men and women?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "SwimmingInquiry",
+        "language": "en-us",
+        "text": "What swimming goggles do you have for kids?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 5,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "TennisInquiry",
+        "language": "en-us",
+        "text": "Do you sell tennis rackets?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "TennisInquiry",
+        "language": "en-us",
+        "text": "What types of tennis shoes do you offer?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "TennisInquiry",
+        "language": "en-us",
+        "text": "Can I buy tennis balls here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 10,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "TennisInquiry",
+        "language": "en-us",
+        "text": "Do you carry tennis apparel?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 13,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "TennisInquiry",
+        "language": "en-us",
+        "text": "What is the best tennis racket for beginners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 17,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "TennisInquiry",
+        "language": "en-us",
+        "text": "Can you recommend tennis shoes for flat feet?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 18,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "TennisInquiry",
+        "language": "en-us",
+        "text": "Do you have tennis bags for storing rackets?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "TennisInquiry",
+        "language": "en-us",
+        "text": "What are the best tennis rackets for advanced players?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 18,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "TennisInquiry",
+        "language": "en-us",
+        "text": "Can I get tennis grips here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 10,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "TennisInquiry",
+        "language": "en-us",
+        "text": "What tennis accessories do you recommend for beginners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 5,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "TennisInquiry",
+        "language": "en-us",
+        "text": "Are there any tennis rackets for children?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "TennisInquiry",
+        "language": "en-us",
+        "text": "Do you carry tennis socks or compression sleeves?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 13,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "TennisInquiry",
+        "language": "en-us",
+        "text": "What is the best tennis racquet for controlling spin?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 17,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "TennisInquiry",
+        "language": "en-us",
+        "text": "Do you sell tennis visors or hats?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "TennisInquiry",
+        "language": "en-us",
+        "text": "What tennis shoes are best for hard courts?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 5,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "YogaInquiry",
+        "language": "en-us",
+        "text": "Do you sell yoga mats?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "YogaInquiry",
+        "language": "en-us",
+        "text": "What types of yoga blocks do you offer?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "YogaInquiry",
+        "language": "en-us",
+        "text": "Can I buy yoga straps here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 10,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "YogaInquiry",
+        "language": "en-us",
+        "text": "Do you carry yoga clothes?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 13,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "YogaInquiry",
+        "language": "en-us",
+        "text": "What is the best yoga mat for hot yoga?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 17,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "YogaInquiry",
+        "language": "en-us",
+        "text": "Can you recommend yoga props for beginners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 18,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "YogaInquiry",
+        "language": "en-us",
+        "text": "Do you have yoga blankets for meditation?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "YogaInquiry",
+        "language": "en-us",
+        "text": "What are the best yoga mats for grip?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 18,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "YogaInquiry",
+        "language": "en-us",
+        "text": "Can I get yoga bolsters here?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 10,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "YogaInquiry",
+        "language": "en-us",
+        "text": "What yoga accessories do you recommend for advanced practitioners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 5,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "YogaInquiry",
+        "language": "en-us",
+        "text": "Are there any yoga wheels for back pain?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 14,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "YogaInquiry",
+        "language": "en-us",
+        "text": "Do you carry yoga towels for hot yoga?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 13,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "YogaInquiry",
+        "language": "en-us",
+        "text": "What is the best yoga mat for joint support?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 17,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "YogaInquiry",
+        "language": "en-us",
+        "text": "Do you sell yoga kits for beginners?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 12,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "YogaInquiry",
+        "language": "en-us",
+        "text": "What yoga clothes do you have for men?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 5,
+                "length": 4
+            }
+        ]
+    }
+]
