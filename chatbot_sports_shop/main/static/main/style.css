@@ -170,6 +170,17 @@ article {
     padding:0 0.5rem;
 }
 
+#show-json{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    background-color: var(--f);
+    color: var(--a);
+    border-radius: 5px;
+    cursor: pointer;
+    padding:0 0.5rem;
+}
+
 #chat-box{
     position: absolute;
     top: 50px;
@@ -234,6 +245,20 @@ article {
 
 .user-message{
     background-color: var(--d);
+    color: var(--a);
+    padding: 0.2rem;
+    border-radius: 5px;
+    text-align: left;
+    max-width: 60%;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding:5px 15px;
+    word-break: break-all;
+}
+
+.json-message{
+    display:none;
+    background-color: var(--e);
     color: var(--a);
     padding: 0.2rem;
     border-radius: 5px;
